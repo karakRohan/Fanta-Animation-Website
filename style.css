@@ -29,6 +29,7 @@ html.lenis body {
   font-weight: 500;
   font-style: normal;
 }
+
 html,
 body {
   height: 100%;
@@ -219,6 +220,7 @@ nav {
 #pineapple {
   width: 12vw;
 }
+
 #yellow {
   width: 18vw;
 }
@@ -227,12 +229,15 @@ nav {
 #orangefruit {
   width: 30vw;
 }
+
 #resp-orange {
   width: 50vw;
 }
+
 #resp-fanta {
   width: 90vw;
 }
+
 #resp-orange,
 #resp-fanta {
   display: none;
@@ -314,91 +319,114 @@ nav {
   .cntr-nav {
     display: none;
   }
+
   .ri-menu-line {
     font-size: 7vw;
   }
+
   .section1 h1 {
     font-size: 32vw;
   }
+
   #fanta {
     width: 95vw;
   }
+
   #orange2 {
     top: 15%;
     left: 10%;
     width: 39vw;
   }
+
   #leaf1 {
     top: 14%;
     left: 67%;
     width: 19vw;
   }
+
   #orange {
     top: 58%;
     left: 47%;
     width: 42vw;
   }
+
   #leaf2 {
     top: 76%;
     left: 12%;
     width: 16vw;
   }
+
   .section2 {
     flex-direction: column;
     height: 200vh;
   }
+
   .magicpattern {
     width: 100%;
     height: 40%;
   }
+
   .section2 .lft {
     width: 100%;
     height: 40%;
   }
+
   .section2 .rght {
     width: 100%;
     padding: 10vw;
     height: 60%;
   }
+
   .mainHeading {
     font-size: 8vw;
   }
+
   .mainP {
     font-size: 5vw;
   }
+
   .section2 .rght button {
     padding: 5vw 10vw;
   }
+
   .section3 {
     flex-direction: column;
     height: 210vh;
   }
+
   .section3 .card {
     width: 80vw;
     padding: 5vw;
   }
+
   .card button {
     padding: 5vw 10vw;
   }
+
   #pineapple {
     width: 37vw;
   }
+
   #pineapplecut,
   #orangefruit {
     width: 75vw;
   }
+
   #pineapplecut,
   #orangefruit {
     width: 75vw;
   }
+
   #yellow {
     width: 57vw;
   }
+
   #resp-orange,
   #resp-fanta {
     display: initial;
   }
 }
+
 @media (width < 900px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);

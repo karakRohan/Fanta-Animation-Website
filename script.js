@@ -170,8 +170,3 @@ mm2.add("(max-width: 799px)", () => {
             rotate: 90,
         }, 'time1')
 });
-
-
-
-
-
